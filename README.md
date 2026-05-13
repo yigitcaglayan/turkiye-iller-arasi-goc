@@ -49,12 +49,12 @@ goc-posteri/
 │   └── tuik_goc_2008_2024.csv     # TÜİK kaynaklı ham veri
 │
 ├── scripts/
-│   ├── 01_harita.R                # Net göç hızı haritası
-│   ├── 02_sankey.R                # İç göç akışları
-│   ├── 03_neden_bar.R             # İl bazlı göç nedenleri
-│   ├── 04_egitim_neden.R          # Göç nedeni × eğitim durumu
-│   ├── 05_yon_degistiren.R        # Yön değiştiren iller
-│   └── 06_fark_grafigi.R          # Alınan-verilen göç farkı
+│   ├── grafik1_harita_net_goc.R                        # Net göç hızı haritası
+│   ├── grafik2_ic_goc_sankey.R                         # İç göç akışları
+│   ├── grafik3_il_neden.R                              # İl bazlı göç nedenleri
+│   ├── grafik4_heatmap_egitim_neden.R                  # Göç nedeni × eğitim durumu
+│   ├── grafik5_slope_yon_degistiren.R                  # Yön değiştiren iller
+│   └── grafik6_dumbbell_alinan_verilen_fark.R          # Alınan-verilen göç farkı
 │
 ├── output/
 │   └── poster_preview.png         # Hazır poster görseli
@@ -79,12 +79,12 @@ Kullanılan veri setleri **TÜİK (Türkiye İstatistik Kurumu)** resmi web site
 install.packages(c("ggplot2", "sf", "dplyr", "tidyr", "ggalluvial", "networkD3"))
 
 # Script'leri sırasıyla çalıştır
-source("scripts/01_harita.R")
-source("scripts/02_sankey.R")
-source("scripts/03_neden_bar.R")
-source("scripts/04_egitim_neden.R")
-source("scripts/05_yon_degistiren.R")
-source("scripts/06_fark_grafigi.R")
+source("scripts/grafik1_harita_net_goc.R")
+source("scripts/grafik2_ic_goc_sankey.R")
+source("scripts/grafik3_il_neden.R")
+source("scripts/grafik4_heatmap_egitim_neden.R")
+source("scripts/grafik5_slope_yon_degistiren.R")
+source("scripts/grafik6_dumbbell_alinan_verilen_fark.R")
 ```
 
 ---
