@@ -104,7 +104,10 @@ source("scripts/06_fark_grafigi.R")
       </a>
     </td>
     <td align="center">
-      <b>Uğur Keskin</b>
+     <a href="https://github.com/keskin-ugur">
+        <img src="https://github.com/keskin-ugur.png" width="60px" style="border-radius:50%"/><br/>
+        <sub><b>Uğur Keskin</b></sub>
+      </a>
     </td>
   </tr>
 </table>
